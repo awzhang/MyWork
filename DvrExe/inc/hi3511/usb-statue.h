@@ -1,0 +1,2 @@
+#define USB_GET_STATUE 0x00
+#define USB_SET_RESET  0x01

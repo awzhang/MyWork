@@ -1,0 +1,5417 @@
+# Microsoft eMbedded Visual Tools Project File - Name="ComuServ" - Package Owner=<4>
+# Microsoft eMbedded Visual Tools Generated Build File, Format Version 6.02
+# ** DO NOT EDIT **
+
+# TARGTYPE "Win32 (WCE MIPSIV_FP) Application" 0x9201
+# TARGTYPE "Win32 (WCE x86) Application" 0x8301
+# TARGTYPE "Win32 (WCE ARMV4) Application" 0xa301
+# TARGTYPE "Win32 (WCE SH3) Application" 0x8101
+# TARGTYPE "Win32 (WCE ARMV4I) Application" 0xa501
+# TARGTYPE "Win32 (WCE SH4) Application" 0x8601
+# TARGTYPE "Win32 (WCE MIPSII_FP) Application" 0xa201
+# TARGTYPE "Win32 (WCE emulator) Application" 0xa601
+# TARGTYPE "Win32 (WCE MIPSIV) Application" 0x9601
+# TARGTYPE "Win32 (WCE MIPSII) Application" 0xa101
+
+CFG=ComuServ - Win32 (WCE MIPSII_FP) Debug
+!MESSAGE This is not a valid makefile. To build this project using NMAKE,
+!MESSAGE use the Export Makefile command and run
+!MESSAGE 
+!MESSAGE NMAKE /f "ComuServ.vcn".
+!MESSAGE 
+!MESSAGE You can specify a configuration when running NMAKE
+!MESSAGE by defining the macro CFG on the command line. For example:
+!MESSAGE 
+!MESSAGE NMAKE /f "ComuServ.vcn" CFG="ComuServ - Win32 (WCE MIPSII_FP) Debug"
+!MESSAGE 
+!MESSAGE Possible choices for configuration are:
+!MESSAGE 
+!MESSAGE "ComuServ - Win32 (WCE MIPSII_FP) Release" (based on "Win32 (WCE MIPSII_FP) Application")
+!MESSAGE "ComuServ - Win32 (WCE MIPSII_FP) Debug" (based on "Win32 (WCE MIPSII_FP) Application")
+!MESSAGE "ComuServ - Win32 (WCE MIPSII) Release" (based on "Win32 (WCE MIPSII) Application")
+!MESSAGE "ComuServ - Win32 (WCE MIPSII) Debug" (based on "Win32 (WCE MIPSII) Application")
+!MESSAGE "ComuServ - Win32 (WCE SH4) Release" (based on "Win32 (WCE SH4) Application")
+!MESSAGE "ComuServ - Win32 (WCE SH4) Debug" (based on "Win32 (WCE SH4) Application")
+!MESSAGE "ComuServ - Win32 (WCE SH3) Release" (based on "Win32 (WCE SH3) Application")
+!MESSAGE "ComuServ - Win32 (WCE SH3) Debug" (based on "Win32 (WCE SH3) Application")
+!MESSAGE "ComuServ - Win32 (WCE MIPSIV) Release" (based on "Win32 (WCE MIPSIV) Application")
+!MESSAGE "ComuServ - Win32 (WCE MIPSIV) Debug" (based on "Win32 (WCE MIPSIV) Application")
+!MESSAGE "ComuServ - Win32 (WCE emulator) Release" (based on "Win32 (WCE emulator) Application")
+!MESSAGE "ComuServ - Win32 (WCE emulator) Debug" (based on "Win32 (WCE emulator) Application")
+!MESSAGE "ComuServ - Win32 (WCE ARMV4I) Release" (based on "Win32 (WCE ARMV4I) Application")
+!MESSAGE "ComuServ - Win32 (WCE ARMV4I) Debug" (based on "Win32 (WCE ARMV4I) Application")
+!MESSAGE "ComuServ - Win32 (WCE MIPSIV_FP) Release" (based on "Win32 (WCE MIPSIV_FP) Application")
+!MESSAGE "ComuServ - Win32 (WCE MIPSIV_FP) Debug" (based on "Win32 (WCE MIPSIV_FP) Application")
+!MESSAGE "ComuServ - Win32 (WCE ARMV4) Release" (based on "Win32 (WCE ARMV4) Application")
+!MESSAGE "ComuServ - Win32 (WCE ARMV4) Debug" (based on "Win32 (WCE ARMV4) Application")
+!MESSAGE "ComuServ - Win32 (WCE x86) Release" (based on "Win32 (WCE x86) Application")
+!MESSAGE "ComuServ - Win32 (WCE x86) Debug" (based on "Win32 (WCE x86) Application")
+!MESSAGE 
+
+# Begin Project
+# PROP AllowPerConfigDependencies 0
+# PROP Scc_ProjName ""
+# PROP Scc_LocalPath ""
+# PROP ATL_Project 2
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "MIPSII_FPRel"
+# PROP BASE Intermediate_Dir "MIPSII_FPRel"
+# PROP BASE CPU_ID "{D8AC856C-B213-4895-9E83-9EC51A55201E}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "MIPSII_FPRel"
+# PROP Intermediate_Dir "MIPSII_FPRel"
+# PROP CPU_ID "{D8AC856C-B213-4895-9E83-9EC51A55201E}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /d "MIPSII_FP" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /d "MIPSII_FP" /r
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D "MIPSII_FP" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /YX /QMmips2 /QMFPE- /O2 /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D "MIPSII_FP" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /YX /QMmips2 /QMFPE- /O2 /M$(CECrtMT) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPS
+# ADD LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPS
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "MIPSII_FPDbg"
+# PROP BASE Intermediate_Dir "MIPSII_FPDbg"
+# PROP BASE CPU_ID "{D8AC856C-B213-4895-9E83-9EC51A55201E}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "MIPSII_FPDbg"
+# PROP Intermediate_Dir "MIPSII_FPDbg"
+# PROP CPU_ID "{D8AC856C-B213-4895-9E83-9EC51A55201E}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /d "MIPSII_FP" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /d "MIPSII_FP" /r
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D "MIPSII_FP" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /YX /QMmips2 /QMFPE- /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D "MIPSII_FP" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /YX /QMmips2 /QMFPE- /M$(CECrtMTDebug) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPS
+# ADD LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPS
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "MIPSIIRel"
+# PROP BASE Intermediate_Dir "MIPSIIRel"
+# PROP BASE CPU_ID "{689DDC64-9D9D-11D5-96F8-00207802C01C}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "MIPSIIRel"
+# PROP Intermediate_Dir "MIPSIIRel"
+# PROP CPU_ID "{689DDC64-9D9D-11D5-96F8-00207802C01C}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /r
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /YX /QMmips2 /QMFPE /O2 /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /YX /QMmips2 /QMFPE /O2 /M$(CECrtMT) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPS
+# ADD LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPS
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "MIPSIIDbg"
+# PROP BASE Intermediate_Dir "MIPSIIDbg"
+# PROP BASE CPU_ID "{689DDC64-9D9D-11D5-96F8-00207802C01C}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "MIPSIIDbg"
+# PROP Intermediate_Dir "MIPSIIDbg"
+# PROP CPU_ID "{689DDC64-9D9D-11D5-96F8-00207802C01C}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /d "R4000" /d "MIPSII" /r
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /YX /QMmips2 /QMFPE /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "MIPS" /D "_MIPS_" /D "R4000" /D "MIPSII" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /YX /QMmips2 /QMFPE /M$(CECrtMTDebug) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPS
+# ADD LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPS
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "SH4Rel"
+# PROP BASE Intermediate_Dir "SH4Rel"
+# PROP BASE CPU_ID "{D6519021-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "SH4Rel"
+# PROP Intermediate_Dir "SH4Rel"
+# PROP CPU_ID "{D6519021-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "NDEBUG" /d "UNICODE" /d "_UNICODE" /d "$(CePlatform)" /d "SHx" /d "SH4" /d "_SH4_" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "NDEBUG" /d "UNICODE" /d "_UNICODE" /d "$(CePlatform)" /d "SHx" /d "SH4" /d "_SH4_" /r
+CPP=shcl.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "SHx" /D "SH4" /D "_SH4_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /YX /Qsh4 /O2 /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "SHx" /D "SH4" /D "_SH4_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /YX /Qsh4 /O2 /M$(CECrtMT) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:SH4
+# ADD LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:SH4
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "SH4Dbg"
+# PROP BASE Intermediate_Dir "SH4Dbg"
+# PROP BASE CPU_ID "{D6519021-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "SH4Dbg"
+# PROP Intermediate_Dir "SH4Dbg"
+# PROP CPU_ID "{D6519021-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "DEBUG" /d "UNICODE" /d "_UNICODE" /d "$(CePlatform)" /d "SHx" /d "SH4" /d "_SH4_" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "DEBUG" /d "UNICODE" /d "_UNICODE" /d "$(CePlatform)" /d "SHx" /d "SH4" /d "_SH4_" /r
+CPP=shcl.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "SHx" /D "SH4" /D "_SH4_" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /YX /Qsh4 /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "SHx" /D "SH4" /D "_SH4_" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /YX /Qsh4 /M$(CECrtMTDebug) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:SH4
+# ADD LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:SH4
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "SH3Rel"
+# PROP BASE Intermediate_Dir "SH3Rel"
+# PROP BASE CPU_ID "{D6519020-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "SH3Rel"
+# PROP Intermediate_Dir "SH3Rel"
+# PROP CPU_ID "{D6519020-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "SHx" /d "SH3" /d "_SH3_" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "SHx" /d "SH3" /d "_SH3_" /r
+CPP=shcl.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "SHx" /D "SH3" /D "_SH3_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /YX /O2 /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "SHx" /D "SH3" /D "_SH3_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /YX /O2 /M$(CECrtMT) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:SH3 /align:4096
+# ADD LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:SH3 /align:4096
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "SH3Dbg"
+# PROP BASE Intermediate_Dir "SH3Dbg"
+# PROP BASE CPU_ID "{D6519020-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "SH3Dbg"
+# PROP Intermediate_Dir "SH3Dbg"
+# PROP CPU_ID "{D6519020-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "SHx" /d "SH3" /d "_SH3_" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "SHx" /d "SH3" /d "_SH3_" /r
+CPP=shcl.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "SHx" /D "SH3" /D "_SH3_" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /YX /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "SHx" /D "SH3" /D "_SH3_" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /YX /M$(CECrtMTDebug) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:SH3 /align:4096
+# ADD LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:SH3 /align:4096
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "MIPSIVRel"
+# PROP BASE Intermediate_Dir "MIPSIVRel"
+# PROP BASE CPU_ID "{0B2FE524-26C5-4194-8CEF-B1582DEB5A98}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "MIPSIVRel"
+# PROP Intermediate_Dir "MIPSIVRel"
+# PROP CPU_ID "{0B2FE524-26C5-4194-8CEF-B1582DEB5A98}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /r
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "_MIPS64" /D "R4000" /D "MIPSIV" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /YX /QMmips4 /QMn32 /QMFPE /O2 /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "_MIPS64" /D "R4000" /D "MIPSIV" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /YX /QMmips4 /QMn32 /QMFPE /O2 /M$(CECrtMT) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPSFPU
+# ADD LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPSFPU
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "MIPSIVDbg"
+# PROP BASE Intermediate_Dir "MIPSIVDbg"
+# PROP BASE CPU_ID "{0B2FE524-26C5-4194-8CEF-B1582DEB5A98}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "MIPSIVDbg"
+# PROP Intermediate_Dir "MIPSIVDbg"
+# PROP CPU_ID "{0B2FE524-26C5-4194-8CEF-B1582DEB5A98}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /r
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "MIPS" /D "_MIPS_" /D "_MIPS64" /D "R4000" /D "MIPSIV" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /YX /QMmips4 /QMn32 /QMFPE /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "MIPS" /D "_MIPS_" /D "_MIPS64" /D "R4000" /D "MIPSIV" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /YX /QMmips4 /QMn32 /QMFPE /M$(CECrtMTDebug) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPSFPU
+# ADD LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPSFPU
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "emulatorRel"
+# PROP BASE Intermediate_Dir "emulatorRel"
+# PROP BASE CPU_ID "{32E52003-403E-442D-BE48-DE10F8C6131D}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "emulatorRel"
+# PROP Intermediate_Dir "emulatorRel"
+# PROP CPU_ID "{32E52003-403E-442D-BE48-DE10F8C6131D}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "_X86_" /d "x86" /d "_i386_" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "_X86_" /d "x86" /d "_i386_" /r
+CPP=cl.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "_i386_" /D UNDER_CE=$(CEVersion) /D "i_386_" /D "UNICODE" /D "_UNICODE" /D "_X86_" /D "x86" /D "NDEBUG" /YX /Gs8192 /GF /O2 /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "_i386_" /D UNDER_CE=$(CEVersion) /D "i_386_" /D "UNICODE" /D "_UNICODE" /D "_X86_" /D "x86" /D "NDEBUG" /YX /Gs8192 /GF /O2 /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib $(CEx86Corelibc)  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"OLDNAMES.lib" /nodefaultlib:$(CENoDefaultLib) /subsystem:$(CESubsystem) /MACHINE:IX86
+# ADD LINK32 commctrl.lib coredll.lib $(CEx86Corelibc)  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"OLDNAMES.lib" /nodefaultlib:$(CENoDefaultLib) /subsystem:$(CESubsystem) /MACHINE:IX86
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "emulatorDbg"
+# PROP BASE Intermediate_Dir "emulatorDbg"
+# PROP BASE CPU_ID "{32E52003-403E-442D-BE48-DE10F8C6131D}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "emulatorDbg"
+# PROP Intermediate_Dir "emulatorDbg"
+# PROP CPU_ID "{32E52003-403E-442D-BE48-DE10F8C6131D}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d "$(CePlatform)" /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "_X86_" /d "x86" /d "_i386_" /r
+# ADD RSC /l 0x409 /d "$(CePlatform)" /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "_X86_" /d "x86" /d "_i386_" /r
+CPP=cl.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "_i386_" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "i_386_" /D "UNICODE" /D "_UNICODE" /D "_X86_" /D "x86" /YX /Gs8192 /GF /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "_i386_" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "i_386_" /D "UNICODE" /D "_UNICODE" /D "_X86_" /D "x86" /YX /Gs8192 /GF /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib $(CEx86Corelibc)  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"OLDNAMES.lib" /nodefaultlib:$(CENoDefaultLib) /subsystem:$(CESubsystem) /MACHINE:IX86
+# ADD LINK32 commctrl.lib coredll.lib $(CEx86Corelibc)  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"OLDNAMES.lib" /nodefaultlib:$(CENoDefaultLib) /subsystem:$(CESubsystem) /MACHINE:IX86
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "ARMV4IRel"
+# PROP BASE Intermediate_Dir "ARMV4IRel"
+# PROP BASE CPU_ID "{DC70F430-E78B-494F-A9D5-62ADC56443B8}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "ARMV4IRel"
+# PROP Intermediate_Dir "ARMV4IRel"
+# PROP CPU_ID "{DC70F430-E78B-494F-A9D5-62ADC56443B8}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "THUMB" /d "_THUMB_" /d "ARM" /d "_ARM_" /d "ARMV4I" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "THUMB" /d "_THUMB_" /d "ARM" /d "_ARM_" /d "ARMV4I" /r
+CPP=clarm.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "ARM" /D "_ARM_" /D "$(CePlatform)" /D "ARMV4I" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /YX /QRarch4T /QRinterwork-return /O2 /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "ARM" /D "_ARM_" /D "$(CePlatform)" /D "ARMV4I" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /YX /QRarch4T /QRinterwork-return /O2 /M$(CECrtMT) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:THUMB
+# ADD LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:THUMB
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "ARMV4IDbg"
+# PROP BASE Intermediate_Dir "ARMV4IDbg"
+# PROP BASE CPU_ID "{DC70F430-E78B-494F-A9D5-62ADC56443B8}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "ARMV4IDbg"
+# PROP Intermediate_Dir "ARMV4IDbg"
+# PROP CPU_ID "{DC70F430-E78B-494F-A9D5-62ADC56443B8}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "THUMB" /d "_THUMB_" /d "ARM" /d "_ARM_" /d "ARMV4I" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "THUMB" /d "_THUMB_" /d "ARM" /d "_ARM_" /d "ARMV4I" /r
+CPP=clarm.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "ARM" /D "_ARM_" /D "ARMV4I" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /YX /QRarch4T /QRinterwork-return /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "ARM" /D "_ARM_" /D "ARMV4I" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /YX /QRarch4T /QRinterwork-return /M$(CECrtMTDebug) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:THUMB
+# ADD LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:THUMB
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "MIPSIV_FPRel"
+# PROP BASE Intermediate_Dir "MIPSIV_FPRel"
+# PROP BASE CPU_ID "{046A430D-7770-48AB-89B5-24C2D300B03F}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "MIPSIV_FPRel"
+# PROP Intermediate_Dir "MIPSIV_FPRel"
+# PROP CPU_ID "{046A430D-7770-48AB-89B5-24C2D300B03F}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /r
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "_MIPS64" /D "R4000" /D "MIPSIV" /D "MIPSIV_FP" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /YX /QMmips4 /QMn32 /QMFPE- /O2 /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D "_MIPS64" /D "R4000" /D "MIPSIV" /D "MIPSIV_FP" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /YX /QMmips4 /QMn32 /QMFPE- /O2 /M$(CECrtMT) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPSFPU
+# ADD LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPSFPU
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "MIPSIV_FPDbg"
+# PROP BASE Intermediate_Dir "MIPSIV_FPDbg"
+# PROP BASE CPU_ID "{046A430D-7770-48AB-89B5-24C2D300B03F}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "MIPSIV_FPDbg"
+# PROP Intermediate_Dir "MIPSIV_FPDbg"
+# PROP CPU_ID "{046A430D-7770-48AB-89B5-24C2D300B03F}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "MIPS" /d "_MIPS_" /r
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "MIPS" /D "_MIPS_" /D "_MIPS64" /D "R4000" /D "MIPSIV" /D "MIPSIV_FP" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /YX /QMmips4 /QMn32 /QMFPE- /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "MIPS" /D "_MIPS_" /D "_MIPS64" /D "R4000" /D "MIPSIV" /D "MIPSIV_FP" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /YX /QMmips4 /QMn32 /QMFPE- /M$(CECrtMTDebug) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPSFPU
+# ADD LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:MIPSFPU
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "ARMV4Rel"
+# PROP BASE Intermediate_Dir "ARMV4Rel"
+# PROP BASE CPU_ID "{ECBEA43D-CD7B-4852-AD55-D4227B5D624B}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "ARMV4Rel"
+# PROP Intermediate_Dir "ARMV4Rel"
+# PROP CPU_ID "{ECBEA43D-CD7B-4852-AD55-D4227B5D624B}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "NDEBUG" /d "UNICODE" /d "_UNICODE" /d "$(CePlatform)" /d "ARM" /d "_ARM_" /d "ARMV4" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "NDEBUG" /d "UNICODE" /d "_UNICODE" /d "$(CePlatform)" /d "ARM" /d "_ARM_" /d "ARMV4" /r
+CPP=clarm.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "ARM" /D "_ARM_" /D "ARMV4" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /YX /O2 /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "ARM" /D "_ARM_" /D "ARMV4" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /YX /O2 /M$(CECrtMT) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /align:"4096" /MACHINE:ARM
+# ADD LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /align:"4096" /MACHINE:ARM
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "ARMV4Dbg"
+# PROP BASE Intermediate_Dir "ARMV4Dbg"
+# PROP BASE CPU_ID "{ECBEA43D-CD7B-4852-AD55-D4227B5D624B}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "ARMV4Dbg"
+# PROP Intermediate_Dir "ARMV4Dbg"
+# PROP CPU_ID "{ECBEA43D-CD7B-4852-AD55-D4227B5D624B}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "DEBUG" /d "UNICODE" /d "_UNICODE" /d "$(CePlatform)" /d "ARM" /d "_ARM_" /d "ARMV4" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "DEBUG" /d "UNICODE" /d "_UNICODE" /d "$(CePlatform)" /d "ARM" /d "_ARM_" /d "ARMV4" /r
+CPP=clarm.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "ARM" /D "_ARM_" /D "ARMV4" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /YX /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "ARM" /D "_ARM_" /D "ARMV4" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /YX /M$(CECrtMTDebug) /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /align:"4096" /MACHINE:ARM
+# ADD LINK32 commctrl.lib coredll.lib  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /align:"4096" /MACHINE:ARM
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "X86Rel"
+# PROP BASE Intermediate_Dir "X86Rel"
+# PROP BASE CPU_ID "{D6518FF3-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "X86Rel"
+# PROP Intermediate_Dir "X86Rel"
+# PROP CPU_ID "{D6518FF3-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "_X86_" /d "x86" /d "_i386_" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "_X86_" /d "x86" /d "_i386_" /r
+CPP=cl.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "_i386_" /D UNDER_CE=$(CEVersion) /D "i_386_" /D "UNICODE" /D "_UNICODE" /D "_X86_" /D "x86" /D "NDEBUG" /YX /Gs8192 /GF /O2 /c
+# ADD CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "_i386_" /D UNDER_CE=$(CEVersion) /D "i_386_" /D "UNICODE" /D "_UNICODE" /D "_X86_" /D "x86" /D "NDEBUG" /YX /Gs8192 /GF /O2 /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib $(CEx86Corelibc)  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"OLDNAMES.lib" /nodefaultlib:$(CENoDefaultLib) /subsystem:$(CESubsystem) /MACHINE:IX86
+# ADD LINK32 commctrl.lib coredll.lib $(CEx86Corelibc)  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"OLDNAMES.lib" /nodefaultlib:$(CENoDefaultLib) /subsystem:$(CESubsystem) /MACHINE:IX86
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "X86Dbg"
+# PROP BASE Intermediate_Dir "X86Dbg"
+# PROP BASE CPU_ID "{D6518FF3-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "X86Dbg"
+# PROP Intermediate_Dir "X86Dbg"
+# PROP CPU_ID "{D6518FF3-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /d "$(CePlatform)" /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "_X86_" /d "x86" /d "_i386_" /r
+# ADD RSC /l 0x409 /d "$(CePlatform)" /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "_X86_" /d "x86" /d "_i386_" /r
+CPP=cl.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "_i386_" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "i_386_" /D "UNICODE" /D "_UNICODE" /D "_X86_" /D "x86" /YX /Gs8192 /GF /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "_i386_" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "i_386_" /D "UNICODE" /D "_UNICODE" /D "_X86_" /D "x86" /YX /Gs8192 /GF /c
+MTL=midl.exe
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib $(CEx86Corelibc)  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"OLDNAMES.lib" /nodefaultlib:$(CENoDefaultLib) /subsystem:$(CESubsystem) /MACHINE:IX86
+# ADD LINK32 commctrl.lib coredll.lib $(CEx86Corelibc)  /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"OLDNAMES.lib" /nodefaultlib:$(CENoDefaultLib) /subsystem:$(CESubsystem) /MACHINE:IX86
+
+!ENDIF 
+
+# Begin Target
+
+# Name "ComuServ - Win32 (WCE MIPSII_FP) Release"
+# Name "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+# Name "ComuServ - Win32 (WCE MIPSII) Release"
+# Name "ComuServ - Win32 (WCE MIPSII) Debug"
+# Name "ComuServ - Win32 (WCE SH4) Release"
+# Name "ComuServ - Win32 (WCE SH4) Debug"
+# Name "ComuServ - Win32 (WCE SH3) Release"
+# Name "ComuServ - Win32 (WCE SH3) Debug"
+# Name "ComuServ - Win32 (WCE MIPSIV) Release"
+# Name "ComuServ - Win32 (WCE MIPSIV) Debug"
+# Name "ComuServ - Win32 (WCE emulator) Release"
+# Name "ComuServ - Win32 (WCE emulator) Debug"
+# Name "ComuServ - Win32 (WCE ARMV4I) Release"
+# Name "ComuServ - Win32 (WCE ARMV4I) Debug"
+# Name "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+# Name "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+# Name "ComuServ - Win32 (WCE ARMV4) Release"
+# Name "ComuServ - Win32 (WCE ARMV4) Debug"
+# Name "ComuServ - Win32 (WCE x86) Release"
+# Name "ComuServ - Win32 (WCE x86) Debug"
+# Begin Group "Source Files"
+
+# PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
+# Begin Source File
+
+SOURCE=.\CfgMng.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_CFGMN=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\mtd-abi.h"\
+	".\mtd-user.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\ComuServ.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_COMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\CfgMng.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	".\Gps.h"\
+	".\IO.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	".\TimeMng.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Dog.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_DOG_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Dog.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Gps.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_GPS_C=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Gps.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\IO.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_IO_CP=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\IO.h"\
+	".\yx_gpio.h"\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\MsgQueMng.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_MSGQU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueMng.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\MsgQueue.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_MSGQUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\MsgQueue.h"\
+	".\Queue.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Queue.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_QUEUE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\Queue.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\TimeMng.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_TIMEM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	".\ComuServDef.h"\
+	".\TimeMng.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\UseComuServ.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_USECO=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\UseComuServ_CfgGet.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_USECOM=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\UseComuServ_CfgGet_2.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_USECOMU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\UseComuServ_CfgSet.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_USECOMUS=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\UseComuServ_GetGps.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_USECOMUSE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\UseComuServ_GetIO.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_USECOMUSER=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\UseComuServ_GetIO_2.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_USECOMUSERV=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\UseComuServ_Pop.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_USECOMUSERV_=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\UseComuServ_Pop_2.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_USECOMUSERV_P=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\UseComuServ_Push.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_USECOMUSERV_PU=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\UseComuServ_RcvIO.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_USECOMUSERV_R=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\UseComuServ_SetGps.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_USECOMUSERV_S=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\GlobFunc.h"\
+	"..\GlobalShare\mtd-abi.h"\
+	"..\GlobalShare\mtd-user.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\UseComuServ_SetIO.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_USECOMUSERV_SE=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\UseComuServ_SetTime.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_USECOMUSERV_SET=\
+	"..\GlobalShare\ComuServExport.h"\
+	"..\GlobalShare\typedef.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\yx_gpio.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_YX_GP=\
+	".\yx_gpio.h"\
+	".\yx_system.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\YX_GPIO_API.cpp
+
+!IF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Release"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII_FP) Debug"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Release"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSII) Debug"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Release"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH4) Debug"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Release"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE SH3) Debug"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Release"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV) Debug"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Release"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE emulator) Debug"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Release"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4I) Debug"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Release"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE MIPSIV_FP) Debug"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Release"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE ARMV4) Debug"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Release"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ELSEIF  "$(CFG)" == "ComuServ - Win32 (WCE x86) Debug"
+
+DEP_CPP_YX_GPI=\
+	".\YX_GPIO_API.h"\
+	".\yx_gpiodrv.h"\
+	".\yx_system.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# End Group
+# Begin Group "Header Files"
+
+# PROP Default_Filter "h;hpp;hxx;hm;inl"
+# Begin Source File
+
+SOURCE=.\CfgMng.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\ComuServ.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\ComuServDef.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Dog.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Gps.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\IO.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\MsgQueMng.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\MsgQueue.h
+# End Source File
+# Begin Source File
+
+SOURCE=".\mtd-abi.h"
+# End Source File
+# Begin Source File
+
+SOURCE=".\mtd-user.h"
+# End Source File
+# Begin Source File
+
+SOURCE=.\Queue.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\TimeMng.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\yx_gpio.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\YX_GPIO_API.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\yx_gpiodrv.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\yx_iomultplex.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\yx_system.h
+# End Source File
+# End Group
+# Begin Group "Resource Files"
+
+# PROP Default_Filter "ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"
+# End Group
+# End Target
+# End Project

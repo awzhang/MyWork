@@ -1,0 +1,8 @@
+<!DOCTYPE Project SYSTEM "http://www.slickedit.com/dtd/vse/10.0/vpj.dtd">
+<Project
+	Version="10.0"
+	VendorName="SlickEdit"
+	WorkingDir="."
+	AssociatedFile="DvrExe.vcp"
+	AssociatedFileType="microsoft embedded visual tools">
+</Project>
