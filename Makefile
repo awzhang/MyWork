@@ -1,5 +1,7 @@
 CC = arm-hismall-linux-g++
 
+# Define the rootbox path.
+ROOTBOX_PATH=/home/bamboo/work/hi3511/rootbox
 #QianExe目标文件
 Q_O = ./QianExe/yx_DeviceCtrlKaiTian.o 	./QianExe/yx_DriverCtrlKaiTian.o 	./QianExe/yx_IrdModKaiTian.o \
 		./QianExe/yx_LedKaiTian.o 			./QianExe/yx_MeterModKaiTian.o 	./QianExe/yx_Blk.o	\
@@ -131,14 +133,14 @@ mw_mktype:
 	./SoftPack/Mktype M SIM5218 0
 	
 m_install: $(ALL_OUTPUT)
-	cp -f $(Q_P) /work/Hi3510_VSSDK_V1.3.6.0_SDRAM/M_rootbox/mnt/Flash/part5/QianExe
-	cp -f $(CS_P) /work/Hi3510_VSSDK_V1.3.6.0_SDRAM/M_rootbox/mnt/Flash/part5/libComuServ.so
-	cp -f $(U_P) /work/Hi3510_VSSDK_V1.3.6.0_SDRAM/M_rootbox/mnt/Flash/part5/UpdateExe
-	cp -f $(S_P) /work/Hi3510_VSSDK_V1.3.6.0_SDRAM/M_rootbox/mnt/Flash/part5/SockServExe
-	cp -f $(C_P) /work/Hi3510_VSSDK_V1.3.6.0_SDRAM/M_rootbox/mnt/Flash/part5/ComuExe
-	cp -f $(IO_P) /work/Hi3510_VSSDK_V1.3.6.0_SDRAM/M_rootbox/mnt/Flash/part5/IOExe
-	cp -f $(D_P) /work/Hi3510_VSSDK_V1.3.6.0_SDRAM/M_rootbox/mnt/Flash/part5/DvrExe
-	cp -f $(M_P) /work/Hi3510_VSSDK_V1.3.6.0_SDRAM/M_rootbox/mnt/Flash/part5/Monitor
+	cp -f $(Q_P) $(ROOTBOX_PATH)/mnt/Flash/part5/QianExe
+	cp -f $(CS_P)$(ROOTBOX_PATH)/mnt/Flash/part5/libComuServ.so
+	cp -f $(U_P) $(ROOTBOX_PATH)/mnt/Flash/part5/UpdateExe
+	cp -f $(S_P) $(ROOTBOX_PATH)/mnt/Flash/part5/SockServExe
+	cp -f $(C_P) $(ROOTBOX_PATH)/mnt/Flash/part5/ComuExe
+	cp -f $(IO_P) $(ROOTBOX_PATH)/mnt/Flash/part5/IOExe
+	cp -f $(D_P)  $(ROOTBOX_PATH)/mnt/Flash/part5/DvrExe
+	cp -f $(M_P)  $(ROOTBOX_PATH)/mnt/Flash/part5/Monitor
 	@echo $(INFO)
 	
 m_mkpack:
@@ -249,23 +251,23 @@ v8w_mktype:
 #	./SoftPack/Mktype V8 MU203 0
 
 v8_install: $(ALL_OUTPUT)
-	cp -f $(Q_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/mnt/Flash/part5/QianExe
-	cp -f $(CS_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/mnt/Flash/part5/libComuServ.so
-	cp -f $(U_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/mnt/Flash/part5/UpdateExe
-	cp -f $(S_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/mnt/Flash/part5/SockServExe
-	cp -f $(C_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/mnt/Flash/part5/ComuExe
-	cp -f $(IO_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/mnt/Flash/part5/IOExe
-	cp -f $(D_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/mnt/Flash/part5/DvrExe
-	cp -f $(M_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/mnt/Flash/part5/Monitor
+	cp -f $(Q_P) $(ROOTBOX_PATH)/mnt/Flash/part5/QianExe
+	cp -f $(CS_P) $(ROOTBOX_PATH)/mnt/Flash/part5/libComuServ.so
+	cp -f $(U_P)  $(ROOTBOX_PATH)/mnt/Flash/part5/UpdateExe
+	cp -f $(S_P) $(ROOTBOX_PATH)/mnt/Flash/part5/SockServExe
+	cp -f $(C_P) $(ROOTBOX_PATH)/mnt/Flash/part5/ComuExe
+	cp -f $(IO_P) $(ROOTBOX_PATH)/mnt/Flash/part5/IOExe
+	cp -f $(D_P) $(ROOTBOX_PATH)/mnt/Flash/part5/DvrExe
+	cp -f $(M_P) $(ROOTBOX_PATH)/mnt/Flash/part5/Monitor
 	
-	cp -f $(Q_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/QianExe
-	cp -f $(CS_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/libComuServ.so
-	cp -f $(U_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/UpdateExe
-	cp -f $(S_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/SockServExe
-	cp -f $(C_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/ComuExe
-	cp -f $(IO_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/IOExe
-	cp -f $(D_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/DvrExe
-	cp -f $(M_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/Monitor
+	cp -f $(Q_P) $(ROOTBOX_PATH)/QianExe
+	cp -f $(CS_P) $(ROOTBOX_PATH)/libComuServ.so
+	cp -f $(U_P) $(ROOTBOX_PATH)/UpdateExe
+	cp -f $(S_P) $(ROOTBOX_PATH)/SockServExe
+	cp -f $(C_P) $(ROOTBOX_PATH)/ComuExe
+	cp -f $(IO_P) $(ROOTBOX_PATH)/IOExe
+	cp -f $(D_P)  $(ROOTBOX_PATH)/DvrExe
+	cp -f $(M_P)  $(ROOTBOX_PATH)/Monitor
 	
 	@echo $(INFO)
 
@@ -359,22 +361,22 @@ m2w_mktype:
 #	./SoftPack/Mktype M2 MU203 0
 
 m2_install: $(ALL_OUTPUT)
-	cp -f $(Q_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/mnt/Flash/part5/QianExe
-	cp -f $(CS_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/mnt/Flash/part5/libComuServ.so
-	cp -f $(U_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/mnt/Flash/part5/UpdateExe
-	cp -f $(S_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/mnt/Flash/part5/SockServExe
-	cp -f $(C_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/mnt/Flash/part5/ComuExe
-	cp -f $(IO_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/mnt/Flash/part5/IOExe
-	cp -f $(D_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/mnt/Flash/part5/DvrExe
-	cp -f $(M_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/mnt/Flash/part5/Monitor	
-	cp -f $(Q_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/QianExe
-	cp -f $(CS_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/libComuServ.so
-	cp -f $(U_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/UpdateExe
-	cp -f $(S_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/SockServExe
-	cp -f $(C_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/ComuExe
-	cp -f $(IO_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/IOExe
-	cp -f $(D_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/DvrExe
-	cp -f $(M_P) /work/Hi3511_VSSDK_V1.1.2.3/V8_rootbox/Monitor
+	cp -f $(Q_P) $(ROOTBOX_PATH)/mnt/Flash/part5/QianExe
+	cp -f $(CS_P) $(ROOTBOX_PATH)/mnt/Flash/part5/libComuServ.so
+	cp -f $(U_P)  $(ROOTBOX_PATH)/mnt/Flash/part5/UpdateExe
+	cp -f $(S_P)  $(ROOTBOX_PATH)/mnt/Flash/part5/SockServExe
+	cp -f $(C_P)  $(ROOTBOX_PATH)/mnt/Flash/part5/ComuExe
+	cp -f $(IO_P) $(ROOTBOX_PATH)/mnt/Flash/part5/IOExe
+	cp -f $(D_P)  $(ROOTBOX_PATH)/mnt/Flash/part5/DvrExe
+	cp -f $(M_P)  $(ROOTBOX_PATH)/mnt/Flash/part5/Monitor	
+	cp -f $(Q_P)  $(ROOTBOX_PATH)/QianExe
+	cp -f $(CS_P) $(ROOTBOX_PATH)/libComuServ.so
+	cp -f $(U_P)  $(ROOTBOX_PATH)/UpdateExe
+	cp -f $(S_P)  $(ROOTBOX_PATH)/SockServExe
+	cp -f $(C_P)  $(ROOTBOX_PATH)/ComuExe
+	cp -f $(IO_P) $(ROOTBOX_PATH)/IOExe
+	cp -f $(D_P)  $(ROOTBOX_PATH)/DvrExe
+	cp -f $(M_P)  $(ROOTBOX_PATH)/Monitor
 	
 	@echo $(INFO)
 ###################################################################################################

@@ -43,7 +43,7 @@ extern DWORD COMMUX_DEVPATH_PPP;
 #define CHK_VER			0	// 0,发布版本; 1,生产检测版本
 #define USE_PROTOCOL	0	// 0,千里眼通用版协议; 1,千里眼研三公开版协议; 2,千里眼研一公开版协议(即公司公开版); 30,两客通用版协议
 #define USE_LANGUAGE	0	// 0,简体中文; 11,英文
-#define SMALL_VER  1	// 1,最小运行版本,置于文件系统内；0，通常运行版本
+#define SMALL_VER  0	// 1,最小运行版本,置于文件系统内；0，通常运行版本
 
 #ifdef XUN_DEBUG
 #define XUN_ASSERT_VALID( boolval, strval ) { if(!(boolval)) assert(false); }
